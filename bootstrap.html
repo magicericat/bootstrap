@@ -7,7 +7,23 @@
     <!-- <link href="/static/project.css" rel="stylesheet"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
+    <style>
+    #pony {
+        padding: 0 20%;
+    }
+    #small {
+        padding-top: 4em;
+    }
 
+    #small div  {
+        text-align: center;
+    }
+
+    #small h5 {
+        font-weight: bold;
+    }
+
+    </style>
 </head>
 
 <body>
@@ -75,15 +91,46 @@
 
 <div class="container-fluid" >
     <div class="row">
-        <div class="col-lg-6 col-lg-offset-3"></div>
+        <div class="col-lg-6 col-lg-offset-3">
+            <div id="pony">
+            <img align="center" width=423 height=472 src="http://th08.deviantart.net/fs71/PRE/i/2013/211/1/e/mlp_fim____oc__melon_seeds__requested__by_stargazeschrecken1-d661129.png">
+            </div>
+        <!-- <img src="/static/unicorn-melon.png"> -->
+        <h4>Our unicorns deliver the finest melons across the universe, each order comes with a rainbow. We guarantee magical orders, every time.</h4>    
+        </div>
     </div>
+    <div class="row" id="small">
+        <div class="col-lg-4">
+            <h5><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Award Winning</h5>
+            <p>Don't take our word for it. See all the awards our melons have earned.</p>    
+        </div>
+        <div class="col-lg-4">
+            <h5><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Huge Selection</h5>
+            <p>We import melons from all over the world, ensuring we have every melon you could possibly desire.</p>
+        </div>
+        <div class="col-lg-4">
+            <h5><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>Certified Sustainable</h5>
+            <p>Our melicorns care about the earth. These are the healthiest melons in the universe!</p>     
+        </div> 
+    </div>   <!-- end of row small -->
     <div class="row">
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4"></div>
-        <div class="col-lg-4"></div>        
-    </div>
-    <div class="row">
-        <div class="col-lg-10 col-lf-offset-1"></div> <!-- for table -->
+        <div class="col-lg-10 col-lf-offset-1">
+        <table class="table table-striped">
+            <tr>
+                <th>Melon</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Planet</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>                                
+            </tr>
+        </table>
+
+        </div> <!-- for table -->
     </div>
 </div>
 
